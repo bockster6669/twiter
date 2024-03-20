@@ -18,7 +18,7 @@ import { action as destroyAction } from "./routes/destroy";
 import Index from "./routes/index";
 const router = createBrowserRouter([
   {
-    path: "/twiter/",
+    path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
